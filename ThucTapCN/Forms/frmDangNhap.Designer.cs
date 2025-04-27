@@ -33,8 +33,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.linkThoat = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // button1
@@ -43,7 +45,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(173, 565);
+            this.button1.Location = new System.Drawing.Point(203, 565);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(443, 70);
             this.button1.TabIndex = 0;
@@ -85,13 +87,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(305, 333);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(299, 31);
-            this.textBox2.TabIndex = 1;
-            // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -102,6 +97,37 @@
             this.checkBox1.Text = "Hiển thị mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(305, 333);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(299, 31);
+            this.textBox2.TabIndex = 1;
+            // 
+            // linkThoat
+            // 
+            this.linkThoat.AutoSize = true;
+            this.linkThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkThoat.LinkColor = System.Drawing.Color.Red;
+            this.linkThoat.Location = new System.Drawing.Point(596, 783);
+            this.linkThoat.Name = "linkThoat";
+            this.linkThoat.Size = new System.Drawing.Size(75, 29);
+            this.linkThoat.TabIndex = 21;
+            this.linkThoat.TabStop = true;
+            this.linkThoat.Text = "Thoát";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.Red;
+            this.linkLabel1.Location = new System.Drawing.Point(196, 783);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(350, 29);
+            this.linkLabel1.TabIndex = 20;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Bạn chưa có tài khoản? Đăng ký";
+            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -110,6 +136,8 @@
             this.BackgroundImage = global::ThucTapCN.Properties.Resources.loginbg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1598, 901);
+            this.Controls.Add(this.linkThoat);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -132,8 +160,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.LinkLabel linkThoat;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

@@ -17,7 +17,7 @@ namespace ThucTapCN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDangNhap());
+            Application.Run(new frmMenu());
         }
     }
 }

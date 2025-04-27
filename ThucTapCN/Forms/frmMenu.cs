@@ -58,11 +58,6 @@ namespace ThucTapCN.Forms
             hidesubmenu();
         }
 
-        private void btnQLTaiKhoan_Click(object sender, EventArgs e)
-        {
-            openChildForm(new Forms.frmQlyTK());
-            hidesubmenu();
-        }
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
@@ -125,6 +120,18 @@ namespace ThucTapCN.Forms
 
         private void btnTaoHDMoi_Click(object sender, EventArgs e)
         {
+            hidesubmenu();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Forms.frmQlyTK());
+            hidesubmenu();
+        }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Forms.frmNhanVien());
             hidesubmenu();
         }
     }

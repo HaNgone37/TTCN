@@ -53,6 +53,12 @@
     <Compile Include="Forms\frmBackGround.Designer.cs">
       <DependentUpon>frmBackGround.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDangKy.Designer.cs">
+      <DependentUpon>frmDangKy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     <Compile Include="Forms\frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmQlyTK.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +112,9 @@
     <EmbeddedResource Include="Forms\frmBackGround.resx">
       <DependentUpon>frmBackGround.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDangKy.resx">
+      <DependentUpon>frmDangKy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmQlyTK.resx">
       <DependentUpon>frmQlyTK.cs</DependentUpon>
@@ -150,6 +168,7 @@
     <Folder Include="DataTransferObject\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\minhhoasp.png" />
     <None Include="Resources\them hoa don.png" />
     <None Include="Resources\qly user.png" />
     <None Include="Resources\spham.png" />
@@ -167,6 +186,11 @@
     <None Include="Resources\icon sửa.png" />
     <None Include="Resources\icon xóa.png" />
     <None Include="Resources\bgmenu1.jpeg" />
+    <None Include="Resources\icon nhanvien.png" />
+    <None Include="Resources\icon account.png" />
+    <None Include="Resources\employee.png" />
+    <None Include="Resources\icon timkiem.png" />
+    <None Include="Resources\icon bỏ qua.png" />
     <Content Include="Resources\loginbg.png" />
     <Content Include="Resources\logo.jpg" />
   </ItemGroup>
