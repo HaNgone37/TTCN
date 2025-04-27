@@ -16,5 +16,10 @@ namespace ThucTapCN.Forms
         {
             InitializeComponent();
         }
+
+        private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
