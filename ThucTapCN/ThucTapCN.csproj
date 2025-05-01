@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Functions.cs" />
+    <Compile Include="Class\PasswordHelper.cs" />
     <Compile Include="Forms\frmBackGround.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +72,24 @@
     </Compile>
     <Compile Include="Forms\frmDanhMucSP.Designer.cs">
       <DependentUpon>frmDanhMucSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDonDatTruoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDonDatTruoc.Designer.cs">
+      <DependentUpon>frmDonDatTruoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHoaDonBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHoaDonBan.Designer.cs">
+      <DependentUpon>frmHoaDonBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHoaDonNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHoaDonNhap.Designer.cs">
+      <DependentUpon>frmHoaDonNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmKhachHang.cs">
       <SubType>Form</SubType>
@@ -107,6 +127,24 @@
     <Compile Include="Forms\frmSanPham.Designer.cs">
       <DependentUpon>frmSanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmTimkiemDDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTimkiemDDT.Designer.cs">
+      <DependentUpon>frmTimkiemDDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTimkiemHDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTimkiemHDB.Designer.cs">
+      <DependentUpon>frmTimkiemHDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTimkiemHDN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTimkiemHDN.Designer.cs">
+      <DependentUpon>frmTimkiemHDN.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmBackGround.resx">
@@ -120,6 +158,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmDanhMucSP.resx">
       <DependentUpon>frmDanhMucSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDonDatTruoc.resx">
+      <DependentUpon>frmDonDatTruoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHoaDonBan.resx">
+      <DependentUpon>frmHoaDonBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHoaDonNhap.resx">
+      <DependentUpon>frmHoaDonNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
@@ -138,6 +185,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSanPham.resx">
       <DependentUpon>frmSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTimkiemDDT.resx">
+      <DependentUpon>frmTimkiemDDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTimkiemHDB.resx">
+      <DependentUpon>frmTimkiemHDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTimkiemHDN.resx">
+      <DependentUpon>frmTimkiemHDN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -162,11 +218,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BusinessLogicLayer\" />
-    <Folder Include="DataAccessLayer\" />
-    <Folder Include="DataTransferObject\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\minhhoasp.png" />
     <None Include="Resources\them hoa don.png" />
@@ -191,6 +243,8 @@
     <None Include="Resources\employee.png" />
     <None Include="Resources\icon timkiem.png" />
     <None Include="Resources\icon bỏ qua.png" />
+    <None Include="Resources\bg2.png" />
+    <None Include="Resources\icon print.png" />
     <Content Include="Resources\loginbg.png" />
     <Content Include="Resources\logo.jpg" />
   </ItemGroup>

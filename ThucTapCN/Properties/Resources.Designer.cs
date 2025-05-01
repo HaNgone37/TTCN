@@ -73,6 +73,16 @@ namespace ThucTapCN.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg2 {
+            get {
+                object obj = ResourceManager.GetObject("bg2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bgmenu1 {
             get {
                 object obj = ResourceManager.GetObject("bgmenu1", resourceCulture);
@@ -176,6 +186,16 @@ namespace ThucTapCN.Properties {
         internal static System.Drawing.Bitmap icon_nhanvien {
             get {
                 object obj = ResourceManager.GetObject("icon nhanvien", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_print {
+            get {
+                object obj = ResourceManager.GetObject("icon print", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

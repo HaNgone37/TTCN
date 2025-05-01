@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ThucTapCN.Class;
 
 namespace ThucTapCN.Forms
 {
@@ -19,7 +20,7 @@ namespace ThucTapCN.Forms
             panelSideMenu.BackColor = System.Drawing.ColorTranslator.FromHtml("#f9baa9");
             //panelChildForm.BackColor = System.Drawing.ColorTranslator.FromHtml("#fffafa");
             //panelTop.BackColor = System.Drawing.ColorTranslator.FromHtml("#ffe2e1");
-
+            Functions.connect();
             customizedesign();
         }
         private void customizedesign()
@@ -94,6 +95,7 @@ namespace ThucTapCN.Forms
 
         private void btnDatTruoc_Click(object sender, EventArgs e)
         {
+            openChildForm(new Forms.frmDonDatTruoc());
             hidesubmenu();
         }
 
@@ -133,6 +135,29 @@ namespace ThucTapCN.Forms
         {
             openChildForm(new Forms.frmNhanVien());
             hidesubmenu();
+        }
+
+        private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Functions.disconnect();
+        }
+
+        private void ddtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+            openChildForm(new Forms.frmTimkiemDDT());
+        }
+
+        private void ddToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+            openChildForm(new Forms.frmTimkiemHDB());
+        }
+
+        private void hóaĐơnNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+            openChildForm(new Forms.frmTimkiemHDN());
         }
     }
 }
