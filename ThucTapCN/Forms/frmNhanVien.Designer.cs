@@ -31,10 +31,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.DataGridView = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-<<<<<<< HEAD
             this.dateNgaysinh = new System.Windows.Forms.DateTimePicker();
-=======
->>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.txtSdt = new System.Windows.Forms.TextBox();
             this.txtDiachi = new System.Windows.Forms.TextBox();
             this.txtTennhanvien = new System.Windows.Forms.TextBox();
@@ -58,7 +55,6 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.dateNgaysinh = new System.Windows.Forms.DateTimePicker();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -85,10 +81,7 @@
             this.DataGridView.RowTemplate.Height = 33;
             this.DataGridView.Size = new System.Drawing.Size(1500, 293);
             this.DataGridView.TabIndex = 0;
-<<<<<<< HEAD
             this.DataGridView.Click += new System.EventHandler(this.DataGridView_Click);
-=======
->>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             // 
             // groupBox1
             // 
@@ -117,7 +110,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Quản lý Nhân viên";
             // 
-<<<<<<< HEAD
             // dateNgaysinh
             // 
             this.dateNgaysinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,54 +164,6 @@
             // 
             // rdoNam
             // 
-=======
-            // txtSdt
-            // 
-            this.txtSdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSdt.Location = new System.Drawing.Point(768, 277);
-            this.txtSdt.Name = "txtSdt";
-            this.txtSdt.Size = new System.Drawing.Size(326, 35);
-            this.txtSdt.TabIndex = 18;
-            // 
-            // txtDiachi
-            // 
-            this.txtDiachi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiachi.Location = new System.Drawing.Point(768, 194);
-            this.txtDiachi.Name = "txtDiachi";
-            this.txtDiachi.Size = new System.Drawing.Size(326, 35);
-            this.txtDiachi.TabIndex = 18;
-            // 
-            // txtTennhanvien
-            // 
-            this.txtTennhanvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTennhanvien.Location = new System.Drawing.Point(245, 123);
-            this.txtTennhanvien.Name = "txtTennhanvien";
-            this.txtTennhanvien.Size = new System.Drawing.Size(345, 35);
-            this.txtTennhanvien.TabIndex = 18;
-            // 
-            // txtManv
-            // 
-            this.txtManv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtManv.Location = new System.Drawing.Point(245, 55);
-            this.txtManv.Name = "txtManv";
-            this.txtManv.Size = new System.Drawing.Size(345, 35);
-            this.txtManv.TabIndex = 18;
-            // 
-            // rdoNu
-            // 
-            this.rdoNu.AutoSize = true;
-            this.rdoNu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoNu.Location = new System.Drawing.Point(401, 273);
-            this.rdoNu.Name = "rdoNu";
-            this.rdoNu.Size = new System.Drawing.Size(75, 33);
-            this.rdoNu.TabIndex = 17;
-            this.rdoNu.TabStop = true;
-            this.rdoNu.Text = "Nữ";
-            this.rdoNu.UseVisualStyleBackColor = true;
-            // 
-            // rdoNam
-            // 
->>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.rdoNam.AutoSize = true;
             this.rdoNam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoNam.Location = new System.Drawing.Point(241, 273);
@@ -417,14 +361,6 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // dateNgaysinh
-            // 
-            this.dateNgaysinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateNgaysinh.Location = new System.Drawing.Point(245, 200);
-            this.dateNgaysinh.Name = "dateNgaysinh";
-            this.dateNgaysinh.Size = new System.Drawing.Size(345, 35);
-            this.dateNgaysinh.TabIndex = 19;
-            // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -441,7 +377,7 @@
             this.Controls.Add(this.groupBox2);
             this.Name = "frmNhanVien";
             this.Text = "frmNhanVien";
-            this.Load += new System.EventHandler(this.frmNhanVien_Load);
+            this.Load += new System.EventHandler(this.frmNhanVien_Load_1);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);

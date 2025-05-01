@@ -21,21 +21,21 @@ namespace ThucTapCN.Forms
 
 
         DataTable tblNv;
-        private void frmNhanVien_Load(object sender, EventArgs e)
-        {
-            txtManv.Enabled = false;
-            btnLuu.Enabled = false;
-            btnBoqua.Enabled = false;
-            Load_DataGridView();
+        //private void frmNhanVien_Load(object sender, EventArgs e)
+        //{
+        //    txtManv.Enabled = false;
+        //    btnLuu.Enabled = false;
+        //    btnBoqua.Enabled = false;
+        //    Load_DataGridView();
 
-            ResetValues();
+        //    ResetValues();
 
-            txtTimkiem.Enter += TxtTimkiem_Enter;
-            txtTimkiem.Leave += TxtTimkiem_Leave;
+        //    txtTimkiem.Enter += TxtTimkiem_Enter;
+        //    txtTimkiem.Leave += TxtTimkiem_Leave;
 
-            txtTimkiem.Text = placeholderText;
-            txtTimkiem.ForeColor = SystemColors.GrayText; // Màu xám nhạt
-        }
+        //    txtTimkiem.Text = placeholderText;
+        //    txtTimkiem.ForeColor = SystemColors.GrayText; // Màu xám nhạt
+        //}
 
         private string placeholderText = "Nhập từ khóa cần tìm kiếm...";
 
@@ -425,9 +425,20 @@ namespace ThucTapCN.Forms
             ResetValues();
         }
 
-        private void frmNhanVien_Load(object sender, EventArgs e)
+        private void frmNhanVien_Load_1(object sender, EventArgs e)
         {
+            txtManv.Enabled = false;
+            btnLuu.Enabled = false;
+            btnBoqua.Enabled = false;
+            Load_DataGridView();
 
+            ResetValues();
+
+            txtTimkiem.Enter += TxtTimkiem_Enter;
+            txtTimkiem.Leave += TxtTimkiem_Leave;
+
+            txtTimkiem.Text = placeholderText;
+            txtTimkiem.ForeColor = SystemColors.GrayText; // Màu xám nhạt
         }
     }
 }
