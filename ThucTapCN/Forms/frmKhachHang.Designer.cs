@@ -137,7 +137,11 @@
             // txtTimkiem
             // 
             this.txtTimkiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.txtTimkiem.Location = new System.Drawing.Point(42, 404);
+=======
+            this.txtTimkiem.Location = new System.Drawing.Point(42, 414);
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.txtTimkiem.Multiline = true;
             this.txtTimkiem.Name = "txtTimkiem";
             this.txtTimkiem.Size = new System.Drawing.Size(461, 44);
@@ -147,7 +151,11 @@
             // 
             this.btnTimkiem.Image = global::ThucTapCN.Properties.Resources.icon_timkiem;
             this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+<<<<<<< HEAD
             this.btnTimkiem.Location = new System.Drawing.Point(539, 394);
+=======
+            this.btnTimkiem.Location = new System.Drawing.Point(539, 404);
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.btnTimkiem.Name = "btnTimkiem";
             this.btnTimkiem.Size = new System.Drawing.Size(167, 57);
             this.btnTimkiem.TabIndex = 39;
@@ -159,9 +167,15 @@
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.groupBox1.Location = new System.Drawing.Point(42, 477);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1579, 462);
+=======
+            this.groupBox1.Location = new System.Drawing.Point(42, 484);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1579, 455);
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Hiển thị danh sách";
@@ -173,7 +187,11 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
+<<<<<<< HEAD
             this.dataGridView1.Size = new System.Drawing.Size(1542, 410);
+=======
+            this.dataGridView1.Size = new System.Drawing.Size(1542, 396);
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.dataGridView1.TabIndex = 0;
             // 
             // grbQLKH
@@ -190,7 +208,11 @@
             this.grbQLKH.Controls.Add(this.lblDiaChi);
             this.grbQLKH.Controls.Add(this.lblMaKH);
             this.grbQLKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.grbQLKH.Location = new System.Drawing.Point(42, 28);
+=======
+            this.grbQLKH.Location = new System.Drawing.Point(42, 41);
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.grbQLKH.Name = "grbQLKH";
             this.grbQLKH.Size = new System.Drawing.Size(1372, 342);
             this.grbQLKH.TabIndex = 11;

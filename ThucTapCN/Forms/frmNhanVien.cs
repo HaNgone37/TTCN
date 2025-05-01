@@ -424,5 +424,10 @@ namespace ThucTapCN.Forms
             DataGridView.DataSource = tblTk;
             ResetValues();
         }
+
+        private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

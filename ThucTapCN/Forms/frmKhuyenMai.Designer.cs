@@ -32,8 +32,13 @@
             this.cboGiatri = new System.Windows.Forms.ComboBox();
             this.cboTrangthai = new System.Windows.Forms.ComboBox();
             this.txtMota = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.txtMakm = new System.Windows.Forms.TextBox();
             this.dateNgaykt = new System.Windows.Forms.DateTimePicker();
+=======
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,8 +55,11 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.txtTenct = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+=======
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
@@ -72,7 +80,11 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+<<<<<<< HEAD
             this.groupBox1.Controls.Add(this.dateNgaybd);
+=======
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(41, 47);
             this.groupBox1.Name = "groupBox1";
@@ -100,6 +112,18 @@
             this.cboTrangthai.TabIndex = 52;
             // 
             // txtMota
+<<<<<<< HEAD
+=======
+            // 
+            this.txtMota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMota.Location = new System.Drawing.Point(892, 112);
+            this.txtMota.Multiline = true;
+            this.txtMota.Name = "txtMota";
+            this.txtMota.Size = new System.Drawing.Size(633, 178);
+            this.txtMota.TabIndex = 51;
+            // 
+            // textBox1
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             // 
             this.txtMota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMota.Location = new System.Drawing.Point(909, 172);
@@ -301,6 +325,7 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
+<<<<<<< HEAD
             // txtTenct
             // 
             this.txtTenct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -319,6 +344,8 @@
             this.label1.TabIndex = 54;
             this.label1.Text = "Tên CTKM:";
             // 
+=======
+>>>>>>> b69796e32b49cc6aa3fedf41146a0f6618869011
             // frmKhuyenMai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
